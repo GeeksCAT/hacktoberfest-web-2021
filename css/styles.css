@@ -366,6 +366,7 @@ body {
 h2,
 h3 {
   margin-bottom: 30px;
+  font-weight: 100;
 }
 
 .custom-list-icon
@@ -511,5 +512,5 @@ input {
 .row:not(:last-child) {
   margin-bottom: 3em;
   text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
 }
