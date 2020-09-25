@@ -176,12 +176,15 @@ header {
     margin-top: 10px;
   }
 }
+
 #faq .card {
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 #faq .card .card-header {
   background-color: #582d41;
 }
+
 #faq .card .card-header a {
   color: #fff;
   padding-left: 20px;
@@ -313,7 +316,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #ff9566;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -366,6 +369,7 @@ body {
 h2,
 h3 {
   margin-bottom: 30px;
+  font-weight: 100;
 }
 
 .custom-list-icon
@@ -501,15 +505,27 @@ input {
   margin-bottom: 0;
 }
 
-.row:first-child {
+.banner .row:first-child {
   padding-top: 3em;
 }
-.row .row:first-child {
+.banner .row .row:first-child {
   padding-top: 0;
 }
 
 .row:not(:last-child) {
   margin-bottom: 3em;
   text-rendering: optimizeLegibility;
-      -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+} */
+
+.section-title {
+  font-weight: bold;
 }
