@@ -1,12 +1,3 @@
-@font-face {
-  font-family: Squealer;
-  src: url(../fonts/squealer.ttf);
-}
-
-.hacktoberfestFont {
-  font-family: Squealer;
-}
-
 #about img {
   margin-top: 50px;
 }
@@ -113,7 +104,7 @@ header {
   background-position: bottom right, top left;
 }
 .banner3 a {
-  color: #ff5755;
+  color: #ff9566;
 }
 @media screen and (min-width: 768px) {
   .banner3 {
@@ -172,7 +163,7 @@ header {
   margin-bottom: 10px;
 }
 #faq .card .card-header {
-  background-color: #000;
+  background-color: #582d41;
 }
 #faq .card .card-header a {
   color: #fff;
@@ -306,7 +297,7 @@ h2,
 h3,
 h4 {
   font-family: 'Roboto', sans-serif;
-  color: #ff5755;
+  color: #ff9566;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 20px;
@@ -322,7 +313,7 @@ a.btn {
 }
 a.btn-danger,
 a.btn-danger:hover {
-  background-color: #ff5755;
+  background-color: #ff9566;
 }
 
 .lead {
@@ -420,7 +411,7 @@ ul.color_list li:after {
   background-position: bottom right, top left;
 }
 .hacktober-bg a {
-  color: #ff5755;
+  color: #ff9566;
 }
 @media screen and (min-width: 768px) {
   .hacktober-bg {
@@ -461,4 +452,26 @@ ul.color_list li:after {
 /*# sourceMappingURL=styles.css.map */
 .bg-purple {
   background-color: #582d41;
+}
+
+@font-face {
+  font-family: Squealer;
+  src: url(../fonts/squealer.ttf);
+}
+
+.hacktoberfestFont {
+  font-family: Squealer;
+}
+
+.bannerCall2Action {
+  border: 1px solid #ff9566;
+  border-radius: 15px;
+}
+
+input {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
