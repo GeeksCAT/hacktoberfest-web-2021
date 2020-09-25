@@ -32,7 +32,13 @@ header {
   header {
     padding: 156px 0 100px;
   }
+
+  /* Fix mainNav margins  */
+  #mainNav .container{
+    margin-left: auto;
+  }
 }
+
 .banner h1 {
   color: white;
   font-size: 30px;
@@ -84,7 +90,12 @@ header {
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
   }
+  /* Fix mainNav margins */
+  #mainNav .container{
+    margin-left: 0;
+  }
 }
+
 @media (min-width: 768px) {
   .banner1 {
     padding: 150px 100px 100px 100px;
