@@ -32,11 +32,6 @@ header {
   header {
     padding: 156px 0 100px;
   }
-
-  /* Fix mainNav margins  */
-  #mainNav .container{
-    margin-left: auto;
-  }
 }
 
 .banner h1 {
@@ -89,10 +84,6 @@ header {
   .banner3 {
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
-  }
-  /* Fix mainNav margins */
-  #mainNav .container{
-    margin-left: 0;
   }
 }
 
@@ -450,6 +441,13 @@ ul.color_list li:after {
 .hacktober-bg h3 {
   text-transform: none;
   color: white;
+}
+
+@media (max-width: 992px) {
+  /* Fix mainNav margins */
+  #mainNav .container{
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 767px) {
