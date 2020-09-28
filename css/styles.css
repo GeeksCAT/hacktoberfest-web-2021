@@ -32,11 +32,6 @@ header {
   header {
     padding: 156px 0 100px;
   }
-
-  /* Fix mainNav margins  */
-  #mainNav .container{
-    margin-left: auto;
-  }
 }
 
 .banner h1 {
@@ -89,10 +84,6 @@ header {
   .banner3 {
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
-  }
-  /* Fix mainNav margins */
-  #mainNav .container{
-    margin-left: 0;
   }
 }
 
@@ -176,12 +167,15 @@ header {
     margin-top: 10px;
   }
 }
+
 #faq .card {
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 #faq .card .card-header {
   background-color: #582d41;
 }
+
 #faq .card .card-header a {
   color: #fff;
   padding-left: 20px;
@@ -252,6 +246,7 @@ footer img {
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #organizers.organizers1.black_and_white
   .organizer
@@ -278,6 +273,7 @@ footer img {
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #projects.projects2 .project .project-picture img:hover {
   filter: none;
@@ -313,7 +309,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #ff9566;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -369,27 +365,20 @@ h3 {
   font-weight: 100;
 }
 
-.custom-list-icon
-margin-bottom: 0;,
-.list-arrow-right {
+.custom-list-icon .list-arrow-right {
   list-style-type: none;
   padding: 0;
 }
-.custom-list-icon li
-margin-bottom: 0;,
-.list-arrow-right li {
+.custom-list-icon li .list-arrow-right li {
   position: relative;
   padding-left: 20px;
 }
-.custom-list-icon li::before
-margin-bottom: 0;,
-.list-arrow-right li::before {
+.custom-list-icon li::before .list-arrow-right li::before {
   position: absolute;
   left: 0;
   color: #4e4e4e;
   font-family: 'Ionicons';
 }
-margin-bottom: 0;
 
 .list-arrow-right li::before {
   content: '\f3d3';
@@ -449,6 +438,13 @@ ul.color_list li:after {
   color: white;
 }
 
+@media (max-width: 992px) {
+  /* Fix mainNav margins */
+  #mainNav .container {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 767px) {
   section {
     padding-top: 20px;
@@ -502,10 +498,10 @@ input {
   margin-bottom: 0;
 }
 
-.row:first-child {
+.banner .row:first-child {
   padding-top: 3em;
 }
-.row .row:first-child {
+.banner .row .row:first-child {
   padding-top: 0;
 }
 
@@ -513,4 +509,16 @@ input {
   margin-bottom: 3em;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+}
+
+/* h2 {
+  font-size: 1.7em;
+}
+
+h3 {
+  font-size: 1.5em;
+} */
+
+.section-title {
+  font-weight: bold;
 }
