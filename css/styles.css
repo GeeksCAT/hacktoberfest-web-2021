@@ -111,9 +111,6 @@ header {
   background-repeat: no-repeat, no-repeat;
   background-position: bottom right, top left;
 }
-.banner3 a {
-  color: #ff9566;
-}
 @media screen and (min-width: 768px) {
   .banner3 {
     background-image: url('../images/flourish-bottom.svg'),
@@ -175,10 +172,6 @@ header {
 #faq .card .card-header {
   background-color: #582d41;
 }
-.card-text a {
-  color: #ff9566;
-}
-
 #faq .card .card-header a {
   color: #fff;
   padding-left: 20px;
@@ -322,7 +315,7 @@ h4 {
 }
 
 a {
-  color: #582d41;
+  color: #ff9566;
 }
 a.btn {
   color: white;
@@ -487,6 +480,8 @@ ul.color_list li:after {
 .bannerCall2Action {
   border: 1px solid #ff9566;
   border-radius: 15px;
+  text-align: center;
+  color: white;
 }
 
 input {
