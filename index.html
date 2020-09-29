@@ -88,29 +88,17 @@
           <br/>
           <div class="banner2 bannerCall2Action">
             <h2>
-              Aviat publicarem més detalls sobre l'esdeveniment!
+              Vull participar!
             </h2>
+            Registra't <a href="https://www.eventbrite.es/e/entradas-hacktoberfest-geekscat-2020-123187963515">a l'esdeveniment</a> i ens posarem en contacte amb tu per organitzar-ho tot :)
 
-            <!-- Begin Mailchimp Signup Form -->
-            <div id="mc_emabed_signup">
-              <form action="https://geekscat.us2.list-manage.com/subscribe/post?u=04c7e5f2cdec77b33da4fb17e&amp;id=c91e51c76c"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                novalidate>
-                <div id="mc_embed_signup_scroll">
-                  <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="un@email.cat" required>
-                  <input type="submit" value="Notifica'm!" name="subscribe" id="mc-embedded-subscribe" class="button">
-
-                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                      name="b_04c7e5f2cdec77b33da4fb17e_4d787611bf" tabindex="-1" value=""></div>
-                </div>
-              </form>
-            </div>
-            <!--End mc_embed_signup-->
-          </div>
-
-          <!-- <h2>Apunta't i treballarem junts per millorar el software lliure!</h2>
-         <a class="btn btn-info" href="#tickets">RSVP</a> -->
+            <br/>
+            <br/>
+            <!-- Noscript content for added SEO -->
+            <noscript><a href="https://www.eventbrite.es/e/entradas-hacktoberfest-geekscat-2020-123187963515"
+                rel="noopener noreferrer" target="_blank"></noscript>
+            <input class="btn" type=button id="eventbrite-widget-modal-trigger-123187963515" type="button" value="Registra'm"/>
+            <noscript></a>Registrar-me a Eventbrite</noscript>
         </div>
       </div>
     </div>
@@ -621,4 +609,19 @@
 <script src="js/navbar.js"></script>
 
 </body>
+<script src="https://www.eventbrite.es/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+  var exampleCallback = function () {
+    console.log('Order complete!');
+  };
+
+  window.EBWidgets.createWidget({
+    widgetType: 'checkout',
+    eventId: '123187963515',
+    modal: true,
+    modalTriggerElementId: 'eventbrite-widget-modal-trigger-123187963515',
+    onOrderComplete: exampleCallback
+  });
+</script>
 </html>
