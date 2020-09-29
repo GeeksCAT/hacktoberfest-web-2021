@@ -522,3 +522,25 @@ h3 {
 .section-title {
   font-weight: bold;
 }
+
+#project .card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.row .card {
+  margin-bottom: 1em;
+  border-radius: 15px;
+}
+
+code {
+  color: #ff9566;
+}
+
+ul ul li {
+  margin-bottom: 0;
+}
+
+li,
+ul ul li:last-child {
+  margin-bottom: 0.5em;
+}
