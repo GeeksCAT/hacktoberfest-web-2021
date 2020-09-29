@@ -111,9 +111,6 @@ header {
   background-repeat: no-repeat, no-repeat;
   background-position: bottom right, top left;
 }
-.banner3 a {
-  color: #ff9566;
-}
 @media screen and (min-width: 768px) {
   .banner3 {
     background-image: url('../images/flourish-bottom.svg'),
@@ -175,7 +172,6 @@ header {
 #faq .card .card-header {
   background-color: #582d41;
 }
-
 #faq .card .card-header a {
   color: #fff;
   padding-left: 20px;
@@ -246,6 +242,7 @@ footer img {
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #organizers.organizers1.black_and_white
   .organizer
@@ -272,6 +269,7 @@ footer img {
   filter: gray;
   -webkit-filter: grayscale(1);
   -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 #projects.projects2 .project .project-picture img:hover {
   filter: none;
@@ -317,7 +315,7 @@ h4 {
 }
 
 a {
-  color: #582d41;
+  color: #ff9566;
 }
 a.btn {
   color: white;
@@ -363,27 +361,20 @@ h3 {
   font-weight: 100;
 }
 
-.custom-list-icon
-margin-bottom: 0;,
-.list-arrow-right {
+.custom-list-icon .list-arrow-right {
   list-style-type: none;
   padding: 0;
 }
-.custom-list-icon li
-margin-bottom: 0;,
-.list-arrow-right li {
+.custom-list-icon li .list-arrow-right li {
   position: relative;
   padding-left: 20px;
 }
-.custom-list-icon li::before
-margin-bottom: 0;,
-.list-arrow-right li::before {
+.custom-list-icon li::before .list-arrow-right li::before {
   position: absolute;
   left: 0;
   color: #4e4e4e;
   font-family: 'Ionicons';
 }
-margin-bottom: 0;
 
 .list-arrow-right li::before {
   content: '\f3d3';
@@ -445,7 +436,7 @@ ul.color_list li:after {
 
 @media (max-width: 992px) {
   /* Fix mainNav margins */
-  #mainNav .container{
+  #mainNav .container {
     margin-left: 0;
   }
 }
@@ -489,6 +480,8 @@ ul.color_list li:after {
 .bannerCall2Action {
   border: 1px solid #ff9566;
   border-radius: 15px;
+  text-align: center;
+  color: white;
 }
 
 input {
@@ -526,4 +519,30 @@ h3 {
 
 .section-title {
   font-weight: bold;
+}
+
+#project .card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.row .card {
+  margin-bottom: 1em;
+  border-radius: 15px;
+}
+
+code {
+  color: #ff9566;
+}
+
+ul ul li {
+  margin-bottom: 0;
+}
+
+li,
+ul ul li:last-child {
+  margin-bottom: 0.5em;
+}
+
+#project .bannerCall2Action {
+  margin: 0.8em;
 }
