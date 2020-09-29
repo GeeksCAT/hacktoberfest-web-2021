@@ -542,3 +542,7 @@ li,
 ul ul li:last-child {
   margin-bottom: 0.5em;
 }
+
+#project .bannerCall2Action {
+  margin: 0.8em;
+}
