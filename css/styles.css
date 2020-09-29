@@ -175,6 +175,9 @@ header {
 #faq .card .card-header {
   background-color: #582d41;
 }
+.card-text a {
+  color: #ff9566;
+}
 
 #faq .card .card-header a {
   color: #fff;
