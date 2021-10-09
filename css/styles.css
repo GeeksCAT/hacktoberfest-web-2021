@@ -546,3 +546,8 @@ ul ul li:last-child {
 #project .bannerCall2Action {
   margin: 0.8em;
 }
+
+/*Custom*/
+#organitzadors img {
+  max-height: 150px;
+}
