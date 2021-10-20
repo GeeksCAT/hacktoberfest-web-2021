@@ -551,3 +551,7 @@ ul ul li:last-child {
 #organitzadors img {
   max-height: 150px;
 }
+
+#patrocinadors img {
+  margin: 1em 2em;
+}
